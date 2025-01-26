@@ -23,9 +23,10 @@ public class CompassContainer : MonoBehaviour {
         Isoclinic = 0,
         Stereographic = 1,
         Disabled = 2,
+        Both = 3,
     }
 
-    public static CompassType compassType = CompassType.Isoclinic;
+    public static CompassType compassType = CompassType.Both;
     public static bool useVolumeLine = false;
 
     public bool is5D = false;
@@ -239,6 +240,13 @@ public class CompassContainer : MonoBehaviour {
             case CompassType.Stereographic:
                 compass1.transform.parent.gameObject.SetActive(true);
                 compass2.transform.parent.gameObject.SetActive(false);
+                compass3.transform.parent.gameObject.SetActive(false);
+                compassSP.transform.parent.gameObject.SetActive(true);
+                LayoutRebuilder.ForceRebuildLayoutImmediate(GetComponent<RectTransform>());
+                break;
+            case CompassType.Both:
+                compass1.transform.parent.gameObject.SetActive(true);
+                compass2.transform.parent.gameObject.SetActive(true);
                 compass3.transform.parent.gameObject.SetActive(false);
                 compassSP.transform.parent.gameObject.SetActive(true);
                 LayoutRebuilder.ForceRebuildLayoutImmediate(GetComponent<RectTransform>());
