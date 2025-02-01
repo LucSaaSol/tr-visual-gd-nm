@@ -51,7 +51,7 @@ public class BasicCamera4D : Physical4D {
         sliceCam = GameObject.FindGameObjectWithTag("MainCamera")?.GetComponent<Camera>();
         shadowCam = GameObject.FindGameObjectWithTag("ShadowCamera")?.GetComponent<Camera>();
         overlayCam = GameObject.FindGameObjectWithTag("OverlayCamera")?.GetComponent<Camera>();
-
+        
         //Get all camera mask layers
         sliceCullingMask = sliceCam.cullingMask;
         defaultLayer = LayerMask.GetMask("Default");
