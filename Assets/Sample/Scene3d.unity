@@ -256,7 +256,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8e3d21821f3430540ac196ee05923514, type: 2}
+  - {fileID: 2100000, guid: 6f37a88bd35661c4cb5bcf1e1a961017, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -511,7 +511,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8e3d21821f3430540ac196ee05923514, type: 2}
+  - {fileID: 2100000, guid: 6f37a88bd35661c4cb5bcf1e1a961017, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1799,7 +1799,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rutaEscena3d: 
-  rutaEscena4d: Sample/EscenaPrincipal4d
+  rutaEscena4d: Sample/Scene4d
 --- !u!1 &500742565
 GameObject:
   m_ObjectHideFlags: 0
@@ -3303,7 +3303,7 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
+  near clip plane: 0.01
   far clip plane: 1000
   field of view: 70
   orthographic: 0
@@ -4763,7 +4763,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   esfera: {fileID: 1171573292}
   canyon: {fileID: 1947314610}
-  lanzador: {fileID: 1947314610}
   marcador: {fileID: 1908978173}
   marcadorFinal: {fileID: 2124625246}
   camaraPrincipal: {fileID: 963194225}
