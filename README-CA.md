@@ -3,7 +3,9 @@
 Un projecte de Unity visual i interactiu que compara el descens del gradient i el mètode de Newton.  
 Aquest projecte es va desenvolupar a partir de HackerPoet/Engine4D.
 
-Per llegir aquest document en anglès, obriu el fitxer README.md
+Per llegir aquest document en anglès, obriu el fitxer [README.md](README.md)
+
+La UI de les escenes està en català, mentre que el codi està escrit en castellà.
 
 
 ## Com instal·lar i obrir el projecte
