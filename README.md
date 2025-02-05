@@ -3,8 +3,9 @@
 A Unity visual and interactive comparison between gradient descent and Newton's method.  
 Forked from HackerPoet/Engine4D.
 
-To read this file in Catalan, open the README-CA.md file.
+To read this file in Catalan, open the [README-CA.md](README-CA.md) file.
 
+The UI of the scenes is in Catalan, while the code is written in Spanish.
 
 ## How to install and open the project
 The project is a normal Unity project. To open it, you can just import it through the Unity Hub app. If you don't have it installed, here is how you can open the project:
