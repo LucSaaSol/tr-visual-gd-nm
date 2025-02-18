@@ -285,7 +285,7 @@ public class ControladorPrincipal : MonoBehaviour {
 
         if(Input.GetKeyDown(KeyCode.F) && !juegoFinalizado) {
             for(int i=0; i<objetivos.Length; i++) {
-                colocarMarcadorFinal(objetivos[i].a, objetivos[i].b, funcionPrincipal(objetivos[i].a, objetivos[i].b, objetivos).ToString("n"), Color.black);
+                colocarMarcadorFinal(objetivos[i].a, objetivos[i].b, funcionPrincipal(objetivos[i].a, objetivos[i].b, new Objetivo[]{ objetivos[i] }).ToString("n"), Color.black);
             }
             juegoFinalizado=true;
         }
